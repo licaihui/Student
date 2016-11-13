@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ed_username = (EditText)findViewById(R.id.ed_username);
-        ed_password = (EditText)findViewById(R.id.ed_username);
+        ed_password = (EditText)findViewById(R.id.ed_password);
         bt_login = (Button)findViewById(R.id.bt_login);
 
         bt_login.setOnClickListener(new View.OnClickListener() {
